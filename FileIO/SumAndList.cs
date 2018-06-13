@@ -18,7 +18,7 @@ public class SumAndList
         {
             for (int i = 0; i < file.ReadLines(file).Length; i++)
             {
-                Console.WriteLine(file.ReadLines());
+                Console.WriteLine(file.ReadLine)
             }
 
         }
