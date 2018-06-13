@@ -3,11 +3,12 @@ using System.IO;
 
 public class DataFile
 {
-    private string winDir = System.Environment.GetEnvironmentVariable("windir");
-    private List<int> lines = new List<int>();
+    private string winDir;
+    private List<int> lines;
 
     public DataFile() {
-
+        lines = new List<int>();
+        winDir = System.Environment.GetEnvironmentVariable("windir");
     }
     private void addItem(String value){
         lines.add(Integer.parseInt(value));
@@ -25,14 +26,14 @@ public class DataFile
 
         catch
         {
-            addListItem("File is empty");
+            Console.WriteLine("File is empty");
         }
 
         finally
         {
             reader.Close();
         }
-        return getList<int>;
+        return lines;
     }
 
 }
