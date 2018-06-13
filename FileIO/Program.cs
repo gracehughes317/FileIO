@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows;
 using System.IO;
+using System.Collections.Generic;
 
 namespace FileIO
 {
@@ -17,6 +18,9 @@ namespace FileIO
 
             //method that retrieves the next line
             //reader.ReadLine();
+
+            DataFile file = new DataFile(fileName);
+            List<int> nums = file.GetList();
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
+using System.IO;
 
 public class DataFile
 {
@@ -13,12 +13,10 @@ public class DataFile
         winDir = System.Environment.GetEnvironmentVariable("windir");
         fileName = fN;
     }
-    private void addItem(String value)
-    {
-        lines.add(Integer.parseInt(value));
+    private void addItem(String value){
+        lines.Add(int.Parse(value));
     }
-    public List<int> getLines()
-    {
+    public List<int> GetList(){
         StreamReader reader = new StreamReader(winDir + fileName);
         try
         {
