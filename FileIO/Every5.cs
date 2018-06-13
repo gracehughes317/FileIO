@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class Every5
 {
-    List<int> list = new List<int>();
+    private List<int> list = new List<int>();
 
     public Every5(List<int> xList)
     {
