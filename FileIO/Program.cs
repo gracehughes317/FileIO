@@ -6,7 +6,9 @@ namespace FileIO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Name of data file");
+            string fileName = Console.ReadLine();
+
         }
     }
 }
