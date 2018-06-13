@@ -17,7 +17,7 @@ public class DataFile
         lines.Add(int.Parse(value));
     }
     public List<int> GetList(){
-        StreamReader reader = new StreamReader(winDir + fileName);
+        StreamReader reader = new StreamReader( fileName);
         try
         {
             do
@@ -30,6 +30,7 @@ public class DataFile
         catch
         {
             Console.WriteLine("File is empty");
+            Console.ReadKey();
         }
 
         finally
