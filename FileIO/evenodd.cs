@@ -1,8 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public class evenodd
 {
-	public evensodd(List<int> x)
+	public void evensodd(List<int> x)
 	{
         for(int i = 0; i < 0; i++)
         {
