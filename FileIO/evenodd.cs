@@ -5,15 +5,15 @@ public class evenodd
 {
 	public void evensodd(List<int> x)
 	{
-        for(int i = 0; i < 0; i++)
+        foreach (int i in x)
         {
-            if (((x.get(i)) % 2) == 0)
+            if ((i % 2) == 0)
             {
-                Console.WriteLine(x.get(i) + " Even");
+                Console.WriteLine(i + " Even");
             }
-            if (((x.get(i)) % 2) != 0)
+            if ((i % 2) != 0)
             {
-                Console.WriteLine(x.get(i) + " Odd");
+                Console.WriteLine(i + " Odd");
             }
         }
 	}
