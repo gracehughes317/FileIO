@@ -7,7 +7,7 @@ public class Every5
 
     public Every5(List<int> xList)
     {
-        this.list = xList;
+        list = xList;
     }
 
     public void every5()
