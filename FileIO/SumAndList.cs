@@ -1,26 +1,27 @@
 ﻿using System;
+using System.IO;
 
 public class SumAndList
 {
-	public SumAndList()
-	{
-        int sum(byte[] file)
+    public SumAndList()
+    {
+    }
+
+    int sum(List<int> intList)
         {
             int count = 0;
-            for (int i = 0; i < file.ReadLines(file).Length; i++)
+            foreach (int number in intList)
             {
                 count += number;
             }
             return count;
         }
 
-        void displayList(byte[] file)
+        void displayList(List<int> intList)
         {
-            for (int i = 0; i < file.ReadLines(file).Length; i++)
+            foreach (int number in intList)
             {
-                Console.WriteLine(file.ReadLine)
+                Console.WriteLine(number);
             }
-
-        }
-	}
+	    }
 }
