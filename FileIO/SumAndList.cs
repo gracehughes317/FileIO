@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Collections.Generic;
 
 public class SumAndList
 {
@@ -7,7 +8,7 @@ public class SumAndList
     {
     }
 
-    int sum(List<int> intList)
+    public int Sum(List<int> intList)
         {
             int count = 0;
             foreach (int number in intList)
@@ -17,7 +18,7 @@ public class SumAndList
             return count;
         }
 
-        void displayList(List<int> intList)
+        public void DisplayList(List<int> intList)
         {
             foreach (int number in intList)
             {

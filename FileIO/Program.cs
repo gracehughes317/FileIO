@@ -14,6 +14,11 @@ namespace FileIO
 
             DataFile file = new DataFile(fileName);
             List<int> nums = file.GetList();
+            SumAndList sumer = new SumAndList();
+            sumer.DisplayList(nums);
+            Console.WriteLine("Sum: " + sumer.Sum(nums));
+
+            Console.ReadKey();
         }
     }
 }
