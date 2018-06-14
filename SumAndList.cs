@@ -7,7 +7,6 @@ public class SumAndList
     {
     }
    
-
         int sum(List<int> intList)
         {
             int count = 0;
