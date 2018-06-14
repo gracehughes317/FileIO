@@ -6,8 +6,8 @@ public class SumAndList
     public SumAndList()
     {
     }
-   
-        int sum(List<int> intList)
+
+    int sum(List<int> intList)
         {
             int count = 0;
             foreach (int number in intList)
