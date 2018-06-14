@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class Every5
 {
@@ -14,7 +15,7 @@ public class Every5
     {
         for (int x = 0; x < list.Count; x += 5)
         {
-            Console.WriteLine(list[x]);
+            Console.WriteLine(list.ElementAt(x));
         }
 
     }
