@@ -17,6 +17,12 @@ namespace FileIO
             SumAndList sumer = new SumAndList();
             sumer.DisplayList(nums);
             Console.WriteLine("Sum: " + sumer.Sum(nums));
+            Console.WriteLine("Every 5th Number:");
+            Every5 fives = new Every5(nums);
+            fives.every5();
+            Console.WriteLine("Evens and Odds:");
+            evenodd eAndO = new evenodd();
+            eAndO.evensodd(nums);
 
             Console.ReadKey();
         }
