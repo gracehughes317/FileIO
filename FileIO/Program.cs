@@ -23,7 +23,10 @@ namespace FileIO
             Console.WriteLine("Evens and Odds:");
             evenodd eAndO = new evenodd();
             eAndO.evensodd(nums);
-
+            DivBy3 div3 = new DivBy3(nums);
+            Console.WriteLine("Divisible by 3:");
+            div3.showAllDivBy3();
+            Console.WriteLine("Done.");
             Console.ReadKey();
         }
     }
