@@ -9,7 +9,7 @@ namespace FileIO
     {
         static void Main(string[] args)
         {           
-            Console.WriteLine("Name of data file");
+            Console.WriteLine("Name of data file:");
             string fileName = Console.ReadLine();
 
             DataFile file = new DataFile(fileName);
